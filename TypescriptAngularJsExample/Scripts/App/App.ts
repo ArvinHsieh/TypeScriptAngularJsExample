@@ -10,17 +10,9 @@
         }
 
     }
-
-    //export class ExceptionHandlerFactory ng.IServiceProviderFactory {
-    //    constructor(exception, cause) {
-    //        console.error(exception);
-    //        return true;
-    //    }
-    //}
-
+   
     var app = angular.module("ExampleApp", []);
     app.config(Config);
-    //app.provider("$exceptionHandler", ExceptionHandler);
 
     // register services
     app.service(Common.DataProvider.$name, Common.DataProvider);

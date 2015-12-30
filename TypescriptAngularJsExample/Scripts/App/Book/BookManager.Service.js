@@ -69,4 +69,3 @@ var ExampleApp;
         Services.BookManagerService = BookManagerService;
     })(Services = ExampleApp.Services || (ExampleApp.Services = {}));
 })(ExampleApp || (ExampleApp = {}));
-//# sourceMappingURL=BookManager.Service.js.map

@@ -107,4 +107,3 @@ var ExampleApp;
         Controllers.BookManagerCtrl = BookManagerCtrl;
     })(Controllers = ExampleApp.Controllers || (ExampleApp.Controllers = {}));
 })(ExampleApp || (ExampleApp = {}));
-//# sourceMappingURL=BookManager.Controller.js.map

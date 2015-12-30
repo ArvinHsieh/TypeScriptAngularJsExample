@@ -8,4 +8,3 @@ var ApiResultTypeEnum;
     ApiResultTypeEnum[ApiResultTypeEnum["Success"] = 1] = "Success";
     ApiResultTypeEnum[ApiResultTypeEnum["Fail"] = 0] = "Fail";
 })(ApiResultTypeEnum || (ApiResultTypeEnum = {}));
-//# sourceMappingURL=Common.Enum.js.map

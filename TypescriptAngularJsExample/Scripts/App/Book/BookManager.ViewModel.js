@@ -21,4 +21,3 @@ var ActionModelEnum;
     ActionModelEnum[ActionModelEnum["ListView"] = 0] = "ListView";
     ActionModelEnum[ActionModelEnum["EditView"] = 1] = "EditView";
 })(ActionModelEnum || (ActionModelEnum = {}));
-//# sourceMappingURL=BookManager.ViewModel.js.map

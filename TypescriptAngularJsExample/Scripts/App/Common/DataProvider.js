@@ -56,4 +56,3 @@ var ExampleApp;
         Common.DataProvider = DataProvider;
     })(Common = ExampleApp.Common || (ExampleApp.Common = {}));
 })(ExampleApp || (ExampleApp = {}));
-//# sourceMappingURL=DataProvider.js.map
