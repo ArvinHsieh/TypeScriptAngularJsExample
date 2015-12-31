@@ -1,3 +1,2 @@
-#TypeScript+AngularJs Example
-
-使用 TypeScript + AngularJs 範例。
+#TypeScript + AngularJs + ASP.NET MVC Example
+Use TypeScript + AngularJs + ASP.NET MVC Quick Start
