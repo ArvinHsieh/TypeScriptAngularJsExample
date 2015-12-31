@@ -10,9 +10,24 @@
         }
 
     }
+
+    export class ExceptionHandlerProvider implements ng.IExceptionHandlerProvider {
+        static $name = "$exceptionHandler";
+
+        public mode(mode: string): void {
+            // Set mode is log or rethorw
+        }
+
+        public $get($injector) {
+            return (exception, cause) => {
+                console.error(exception);
+            };
+        }
+    }
    
     var app = angular.module("ExampleApp", []);
     app.config(Config);
+    app.provider(ExceptionHandlerProvider.$name, ExceptionHandlerProvider);
 
     // register services
     app.service(Common.DataProvider.$name, Common.DataProvider);
